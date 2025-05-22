@@ -523,7 +523,7 @@ rocketHandlerCanvas.style.zIndex = "1000";
 rocketHandlerCanvas.style.display = "block";
 
 let direction = { x: 1, y: 0 };
-const speed = 10;
+const speed = 3;
 let animationHandlerFrameId = null;
 
 function updateRocketDirection(rocket, direction) {
